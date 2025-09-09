@@ -49,7 +49,6 @@ plt.title("Tweets represented in the feature space")
 plt.show()
 
 
-
 def neg(theta, pos):
     return (-theta[0] - pos * theta[1]) / theta[2]
 
